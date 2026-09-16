@@ -1,4 +1,0 @@
-python-telegram-bot>=21,<23
-aiohttp>=3.9
-websockets>=12,<16
-python-dotenv>=1
