@@ -21,7 +21,7 @@ ALERT_COOLDOWN_SEC = int(os.getenv("ALERT_COOLDOWN_SEC", "180"))
 WINDOW_SEC = int(os.getenv("WINDOW_SEC", "60"))
 DEPTH = int(os.getenv("DEPTH", "50"))
 
-REST = "https://api.bybit.com"
+REST = "https://api.bybit.eu"
 WS = "wss://stream.bybit.com/v5/public/linear"
 
 session = None
